@@ -1,0 +1,2760 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="theme-color"
+        content="#03050c"
+    >
+
+    <meta
+        name="description"
+        content="Un pequeño universo creado para nosotros."
+    >
+
+    <meta
+        name="color-scheme"
+        content="dark"
+    >
+
+    <title>Un pequeño universo</title>
+
+
+    <!-- =========================================================
+         FUENTES
+    ========================================================== -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+
+<!-- =========================================================
+     CSS PRINCIPAL
+========================================================== -->
+
+<link
+    rel="stylesheet"
+    href="styles.css"
+>
+
+<link
+    rel="stylesheet"
+    href="nuevo-diseño.css"
+>
+
+
+<!-- =============================================================
+     EXPERIENCIA COMPLETA
+============================================================== -->
+
+<div
+    id="experience"
+    class="experience"
+>
+
+
+    <!-- =========================================================
+         SISTEMA CÓSMICO GLOBAL
+         
+         Estas capas serán utilizadas por CSS/JS para crear
+         profundidad, estrellas, nebulosas y movimiento.
+    ========================================================== -->
+
+    <div
+        id="cosmicBackground"
+        class="cosmic-background"
+        aria-hidden="true"
+    >
+
+        <div class="cosmic-layer cosmic-layer-back"></div>
+
+        <div class="cosmic-layer cosmic-layer-stars"></div>
+
+        <div class="cosmic-layer cosmic-layer-dust"></div>
+
+        <div class="cosmic-nebula cosmic-nebula-one"></div>
+
+        <div class="cosmic-nebula cosmic-nebula-two"></div>
+
+        <div class="cosmic-nebula cosmic-nebula-three"></div>
+
+        <div class="cosmic-vignette"></div>
+
+    </div>
+
+
+
+    <!-- =========================================================
+         CURSOR / ELEMENTOS INTERACTIVOS
+    ========================================================== -->
+
+    <div
+        id="cursorGlow"
+        class="cursor-glow"
+        aria-hidden="true"
+    ></div>
+
+
+
+    <!-- =========================================================
+         CAPA DE CARGA / INTRO
+    ========================================================== -->
+
+    <section
+        id="intro"
+        class="intro-screen"
+        aria-label="Introducción"
+    >
+
+
+        <!-- -----------------------------------------------------
+             UNIVERSO DE INTRODUCCIÓN
+        ------------------------------------------------------ -->
+
+        <div
+            class="intro-background"
+            aria-hidden="true"
+        >
+
+            <div class="intro-deep-space"></div>
+
+            <div class="intro-nebula intro-nebula-one"></div>
+
+            <div class="intro-nebula intro-nebula-two"></div>
+
+            <div class="intro-stars intro-stars-small"></div>
+
+            <div class="intro-stars intro-stars-medium"></div>
+
+            <div class="intro-stars intro-stars-bright"></div>
+
+            <div class="intro-dust"></div>
+
+
+            <div class="intro-orbit intro-orbit-one"></div>
+
+            <div class="intro-orbit intro-orbit-two"></div>
+
+
+            <div class="intro-planet">
+
+                <div class="intro-planet-surface"></div>
+
+                <div class="intro-planet-atmosphere"></div>
+
+                <div class="intro-planet-ring"></div>
+
+            </div>
+
+
+            <div class="intro-shooting-star"></div>
+
+        </div>
+
+
+
+        <!-- -----------------------------------------------------
+             CONTENIDO
+        ------------------------------------------------------ -->
+
+        <div class="intro-content">
+
+
+            <div
+                class="intro-symbol"
+                aria-hidden="true"
+            >
+
+                <div class="symbol-orbit symbol-orbit-one"></div>
+
+                <div class="symbol-orbit symbol-orbit-two"></div>
+
+                <div class="symbol-ring"></div>
+
+                <div class="symbol-core">
+
+                    <span></span>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="intro-location">
+
+                <span class="location-line"></span>
+
+                <span>
+                    K&R
+                </span>
+
+                <span class="location-line"></span>
+
+            </div>
+
+
+
+            <span class="intro-overline">
+                :3
+            </span>
+
+
+
+            <h1 class="intro-title">
+
+                FELICES
+
+                <em>
+                    2 AÑITOS MI NIÑA.
+                </em>
+
+            </h1>
+
+
+
+            <p class="intro-subtitle">
+
+                Я тебя люблю.
+
+                <br>
+
+                Надеюсь, скоро с вами встретимся.
+            </p>
+
+
+
+            <!-- -------------------------------------------------
+                 INDICADOR DE CARGA
+            -------------------------------------------------- -->
+
+            <div class="intro-loader">
+
+
+                <div class="loader-header">
+
+                    <span>
+                        Скоро мы будем вместе.
+                    </span>
+
+                    <span id="loaderPercentage">
+                        больше вместе, чем когда-либо.
+                    </span>
+
+                </div>
+
+
+                <div class="loader-track">
+
+                    <div class="loader-progress"></div>
+
+                    <div class="loader-glow"></div>
+
+                </div>
+
+
+                <div class="loader-status">
+
+                    <span id="loaderStatus">
+                        И я с нетерпением жду этого момента...
+                    </span>
+
+                    <span class="loader-signal">
+
+                        <i></i>
+                        <i></i>
+                        <i></i>
+
+                    </span>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- -----------------------------------------------------
+             INFORMACIÓN INFERIOR
+        ------------------------------------------------------ -->
+
+        <div class="intro-bottom">
+
+
+            <div class="intro-coordinate">
+
+                <span>
+                        este
+                </span>
+
+                <span>
+                        es
+                </span>
+
+            </div>
+
+
+            <span class="intro-bottom-center">
+                NUESTRO UNIVERSO
+            </span>
+
+
+            <div class="intro-system">
+
+                <span>
+                    ozi
+                </span>
+
+                <span class="system-status">
+
+                    <i></i>
+
+                    ozi
+
+                </span>
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- =========================================================
+         CONTENIDO PRINCIPAL
+    ========================================================== -->
+
+    <main
+        id="mainExperience"
+        class="main-experience"
+    >
+
+
+        <!-- =====================================================
+             NAVEGACIÓN CÓSMICA
+        ====================================================== -->
+
+        <nav
+            id="cosmicNavigation"
+            class="cosmic-navigation"
+            aria-label="Navegación principal"
+        >
+
+            <div class="nav-brand">
+
+                <span class="nav-brand-orbit"></span>
+
+                <span>
+                    espero
+                </span>
+
+            </div>
+
+
+            <div class="nav-sections">
+
+                <a
+                    href="#hero"
+                    class="nav-item active"
+                    data-section="hero"
+                >
+
+                    <span>
+                        
+                    </span>
+
+                    <small>
+                        te
+                    </small>
+
+                </a>
+
+
+                <a
+                    href="#universeSection"
+                    class="nav-item"
+                    data-section="universeSection"
+                >
+
+                    <span>
+                        guste
+                    </span>
+
+                    <small>
+                        este
+                    </small>
+
+                </a>
+
+
+                <a
+                    href="#musicSection"
+                    class="nav-item"
+                    data-section="musicSection"
+                >
+
+                    <span>
+                        regalito
+                    </span>
+
+                    <small>
+                        :3
+                    </small>
+
+                </a>
+
+
+                <a
+                    href="#flowersSection"
+                    class="nav-item"
+                    data-section="flowersSection"
+                >
+
+                    <span>
+                        .
+                    </span>
+
+                    <small>
+                        .
+                    </small>
+
+                </a>
+
+
+                <a
+                    href="#drawingsSection"
+                    class="nav-item"
+                    data-section="drawingsSection"
+                >
+
+                    <span>
+                        .
+                    </span>
+
+                    <small>
+                        .
+                    </small>
+
+                </a>
+
+
+                <a
+                    href="#letterSection"
+                    class="nav-item"
+                    data-section="letterSection"
+                >
+
+                    <span>
+                        .
+                    </span>
+
+                    <small>
+                        :3
+                    </small>
+
+                </a>
+
+            </div>
+
+
+            <div class="nav-status">
+
+                <span class="nav-status-dot"></span>
+
+                <span>
+                    mi lop.
+                </span>
+
+            </div>
+
+        </nav>
+
+
+
+        <!-- =====================================================
+             HERO / ORIGEN
+        ====================================================== -->
+
+        <section
+            id="hero"
+            class="hero-section"
+        >
+
+
+            <div
+                class="hero-background"
+                aria-hidden="true"
+            >
+
+                <div class="hero-stars"></div>
+
+                <div class="hero-nebula hero-nebula-one"></div>
+
+                <div class="hero-nebula hero-nebula-two"></div>
+
+                <div class="hero-light hero-light-one"></div>
+
+                <div class="hero-light hero-light-two"></div>
+
+
+                <div class="hero-planet-system">
+
+                    <div class="hero-planet-orbit"></div>
+
+                    <div class="hero-planet">
+
+                        <span></span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-shooting-star hero-shooting-star-one"></div>
+
+                <div class="hero-shooting-star hero-shooting-star-two"></div>
+
+            </div>
+
+
+
+            <div class="hero-grid">
+
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+
+
+            <div class="hero-content">
+
+
+                <div class="hero-system-label">
+
+                    <span class="system-dot"></span>
+
+                    <span>
+                        ★ 2 year & 0 months 
+                    </span>
+
+                    <span>
+                        [ 25 . 09 . 24 ]
+                    </span>
+
+                </div>
+
+
+
+                <span class="eyebrow">
+                    
+                </span>
+
+
+
+                <h2>
+
+                    
+
+                    <em>
+                        K-03 // V = ∞ // ORBIT: YOU
+                    </em>
+
+                </h2>
+
+
+
+                <p>
+
+                    
+
+                    <br>
+
+                    
+
+                </p>
+
+
+
+                <a
+                    href="#musicSection"
+                    class="hero-button"
+                >
+
+                    <span class="hero-button-text">
+                        Se siente tan bien estar contigo… no me imagino lo bonito que será tenerte aquí, a mi lado.
+
+                    </span>
+
+                    <span class="hero-button-icon">
+                        ↓
+                    </span>
+
+                    <span class="hero-button-orbit"></span>
+
+                </a>
+
+
+            </div>
+
+
+
+            <div class="hero-number">
+
+                <span>
+                    
+                </span>
+
+                <small>
+                    
+                </small>
+
+            </div>
+
+
+
+            <div class="hero-coordinate-data">
+
+                <div>
+
+                    <span>
+                        K-03 // V = ∞ // ORBIT: YOU
+                    </span>
+
+                    <strong>
+                        
+                    </strong>
+
+                </div>
+
+
+                <div>
+
+                    <span>
+                        km // ∞ stars // 1 KEI 
+                    </span>
+
+                    <strong>
+                        
+                    </strong>
+
+                </div>
+
+
+                <div>
+
+                    <span>
+                        01010100 01000101 00100000 01000001 01001101 01001111
+                    </span>
+
+                    <strong>
+                        
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="scroll-indicator">
+
+                <div class="scroll-line">
+
+                    <span></span>
+
+                </div>
+
+                <small>
+                    :3
+                </small>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =====================================================
+             UNIVERSO
+        ====================================================== -->
+
+        <section
+            id="universeSection"
+            class="experience-section universe-section"
+        >
+
+
+            <div class="section-number">
+
+                <span>
+                    
+                </span>
+
+                <small>
+                    
+                </small>
+
+            </div>
+
+
+
+            <div class="section-coordinate">
+
+                02h 32m 50s | +61° 28′ 16″
+
+            </div>
+
+
+
+            <div class="universe-background">
+
+                <div class="universe-nebula universe-nebula-one"></div>
+
+                <div class="universe-nebula universe-nebula-two"></div>
+
+                <div class="universe-stars"></div>
+
+            </div>
+
+
+
+            <div class="universe-content">
+
+
+                <div class="universe-copy">
+
+
+                    <span class="eyebrow">
+                        
+                    </span>
+
+
+
+                    <h2>
+
+                        El universo puede seguir moviéndose. pero yo ya encontré dónde quiero quedarme.
+
+                        <em>
+                            .
+                        </em>
+
+                    </h2>
+
+
+
+                    <p>
+
+                        .
+
+                        .
+
+                        .
+
+                    </p>
+
+
+
+                    <div class="universe-data">
+
+                        <div class="data-item">
+
+                            <span>
+                                Mira todo lo que existe allá afuera...
+                            </span>
+
+                            <strong>
+                                y aun asi...
+                            </strong>
+
+                        </div>
+
+
+                        <div class="data-item">
+
+                            <span>
+                                mi parte favorita de todo esto…
+                            </span>
+
+                            <strong>
+                                
+                            </strong>
+
+                        </div>
+
+
+                        <div class="data-item">
+
+                            <span>
+                                terminaste siendo tú,
+                            </span>
+
+                            <strong>
+                                mi niña
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- =================================================
+                     SISTEMA SOLAR
+                ================================================== -->
+
+                <div
+                    class="solar-system"
+                    aria-hidden="true"
+                >
+
+
+                    <div class="solar-system-glow"></div>
+
+
+                    <div class="orbit orbit-one">
+
+                        <span class="orbit-marker"></span>
+
+                    </div>
+
+
+                    <div class="orbit orbit-two">
+
+                        <span class="orbit-marker"></span>
+
+                    </div>
+
+
+                    <div class="orbit orbit-three">
+
+                        <span class="orbit-marker"></span>
+
+                    </div>
+
+
+                    <div class="orbit orbit-four">
+
+                        <span class="orbit-marker"></span>
+
+                    </div>
+
+
+
+                    <div class="planet planet-sun">
+
+                        <span class="sun-surface"></span>
+
+                        <span class="sun-corona"></span>
+
+                    </div>
+
+
+
+                    <div class="planet planet-one">
+
+                        <span></span>
+
+                    </div>
+
+
+                    <div class="planet planet-two">
+
+                        <span></span>
+
+                    </div>
+
+
+                    <div class="planet planet-three">
+
+                        <span></span>
+
+                    </div>
+
+
+
+                    <div class="solar-label solar-label-one">
+                        seiempre 
+                    </div>
+
+                    <div class="solar-label solar-label-two">
+                        seremos
+                    </div>
+
+                    <div class="solar-label solar-label-three">
+                        TU... & YO...
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+<!-- =====================================================
+     MÚSICA / FRECUENCIA
+====================================================== -->
+
+<section
+    id="musicSection"
+    class="experience-section music-section"
+>
+
+    <div class="section-number">
+        <span></span>
+        <small></small>
+    </div>
+
+
+    <div class="music-background">
+
+        <div class="music-nebula"></div>
+
+        <div class="music-stars"></div>
+
+        <div class="music-pulse"></div>
+
+    </div>
+
+
+    <div class="music-layout">
+
+
+        <!-- =================================================
+             INTRODUCCIÓN
+        ================================================== -->
+
+        <div class="music-intro">
+
+            <div class="frequency-display">
+
+                <span class="frequency-dot"></span>
+
+                <span>
+                    Hace dos años te conoci sin saber cuanto llegaria a amarte...
+                </span>
+
+                <strong></strong>
+
+            </div>
+
+
+            <span class="eyebrow">
+                Desde entonces cada dibujo, juegos juntos, llamadas, canciones y bulling xd y muchas risas forman parte de nosotros.
+            </span>
+
+
+            <h2>
+
+                <em>
+                    qué bonito es tenerte
+                </em>
+
+                ➚
+
+            </h2>
+
+
+            <p>
+                Y entre todos esos días los he disfrutado como nunca :3
+            </p>
+
+
+            <div class="music-note">
+
+                <div class="music-note-icon">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+
+                <small></small>
+
+            </div>
+
+
+            <div class="music-frequency-line">
+
+                <span></span>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             REPRODUCTOR
+        ================================================== -->
+
+        <div class="player">
+
+            <div class="player-frame-glow"></div>
+
+
+            <!-- =================================================
+                 PARTE SUPERIOR
+            ================================================== -->
+
+            <div class="player-top">
+
+                <div class="player-label-group">
+
+                    <span class="player-status-dot"></span>
+
+                    <span class="player-label">
+                        far away from home
+                    </span>
+
+                </div>
+
+
+                <span id="trackNumber">
+                    𐀪𐀪 𐀪𐀪
+                </span>
+
+            </div>
+
+
+            <!-- =================================================
+                 DISCO
+            ================================================== -->
+
+            <div class="record-area">
+
+                <div class="record-orbit record-orbit-one"></div>
+
+                <div class="record-orbit record-orbit-two"></div>
+
+                <div class="record-shadow"></div>
+
+
+                <div class="record">
+
+                    <div class="record-highlight"></div>
+
+                    <div class="record-grooves"></div>
+
+                    <div class="record-center">
+
+                        <span>
+                            💗ྀི
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="needle">
+
+                    <span class="needle-arm"></span>
+
+                    <span class="needle-head"></span>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 INFORMACIÓN DE LA CANCION
+            ================================================== -->
+
+            <div class="track-info">
+
+                <span class="track-title">
+                    cancioncita
+                </span>
+
+                <span class="track-artist"></span>
+
+            </div>
+
+
+            <!-- =================================================
+                 LETRAS
+            ================================================== -->
+
+            <div
+                class="lyrics-container"
+                id="lyricsContainer"
+            >
+
+                <div class="lyrics-glow"></div>
+
+
+                <div class="lyrics-header">
+
+                    <span class="lyrics-dot"></span>
+
+                    <span>
+                        LYRICS
+                    </span>
+
+                    <span class="lyrics-line"></span>
+
+                </div>
+
+
+                <div
+                    class="lyrics-window"
+                    id="lyricsWindow"
+                >
+
+                    <div
+                        class="lyrics-empty"
+                        id="lyricsEmpty"
+                    >
+
+                        <span>
+                            ♡
+                        </span>
+
+                        <small>
+                            play the song
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 WAVEFORM
+            ================================================== -->
+
+            <div
+                class="waveform"
+                id="waveform"
+                aria-hidden="true"
+            >
+
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+
+            <!-- =================================================
+                 CONTROLES
+            ================================================== -->
+
+            <div class="player-controls">
+
+                <button
+                    id="prevTrack"
+                    type="button"
+                    aria-label="Cancion anterior"
+                >
+
+                    <span>
+                        ←
+                    </span>
+
+                </button>
+
+
+                <button
+                    id="playButton"
+                    class="play-button"
+                    type="button"
+                    aria-label="Reproducir musica"
+                >
+
+                    <span id="playIcon">
+                        ▶
+                    </span>
+
+                    <span class="play-ring"></span>
+
+                </button>
+
+
+                <button
+                    id="nextTrack"
+                    type="button"
+                    aria-label="Siguiente cancion"
+                >
+
+                    <span>
+                        →
+                    </span>
+
+                </button>
+
+            </div>
+
+
+            <!-- =================================================
+                 PROGRESO
+            ================================================== -->
+
+            <div
+                class="progress-line"
+                aria-label="Progreso de la cancion"
+            >
+
+                <div id="progressBar"></div>
+
+                <span class="progress-marker"></span>
+
+            </div>
+
+
+            <!-- =================================================
+                 TIEMPO
+            ================================================== -->
+
+            <div class="player-time">
+
+                <span id="currentTime">
+                    0:00
+                </span>
+
+                <span id="duration">
+                    0:00
+                </span>
+
+            </div>
+
+
+            <!-- =================================================
+                 AUDIO
+            ================================================== -->
+
+            <audio
+                id="audioPlayer"
+                preload="metadata"
+            ></audio>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+
+        <!-- =====================================================
+             CONSTELACIONES / FLORES
+        ====================================================== -->
+
+        <section
+            id="flowersSection"
+            class="experience-section flowers-section"
+        >
+
+
+            <div class="section-number">
+
+                <span>
+                    
+                </span>
+
+                <small>
+                    
+                </small>
+
+            </div>
+
+
+
+            <div class="flowers-background">
+
+                <div class="flowers-nebula"></div>
+
+                <div class="flowers-stars"></div>
+
+                <div class="flowers-grid-lines"></div>
+
+            </div>
+
+
+
+            <div class="flowers-heading">
+
+
+                <div class="constellation-title-mark">
+
+                    <span></span>
+
+                    <span></span>
+
+                    <span></span>
+
+                </div>
+
+
+
+                <span class="eyebrow">
+                    
+                </span>
+
+
+
+                <h2>
+
+                    cada una de ellas
+
+                    <em>
+                        eres tu
+                    </em>
+
+                </h2>
+
+
+
+                <p>
+
+                    porque cuando veo una de ellas, se que estas ahi
+                    
+                </p>
+
+
+            </div>
+
+
+
+            <div class="flowers-grid">
+
+
+                <!-- =================================================
+                     LIRIO
+                ================================================== -->
+
+                <article
+                    class="flower-card flower-lily"
+                    data-flower="lirio"
+                >
+
+
+                    <div class="flower-card-number">
+                        You
+                    </div>
+
+
+
+                    <div class="flower-visual">
+
+
+                        <div class="flower-constellation">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+
+
+                        <div class="flower-aura"></div>
+
+
+
+                        <div class="flower-orbit">
+
+                            <span></span>
+
+                        </div>
+
+
+
+                        <div class="flower-shape lily-shape">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="flower-info">
+
+
+                        <span class="flower-index">
+                            En cada lirio habrá un poquito de tu calma
+                        </span>
+
+
+                        <h3>
+                            Lirio
+                        </h3>
+
+
+                        <p>
+                            
+                        </p>
+
+
+                        <span class="flower-discover">
+                            
+                        </span>
+
+
+                    </div>
+
+
+                </article>
+
+
+
+                <!-- =================================================
+                     TULIPÁN
+                ================================================== -->
+
+                <article
+                    class="flower-card flower-tulip"
+                    data-flower="tulipan"
+                >
+
+
+                    <div class="flower-card-number">
+                        Are
+                    </div>
+
+
+
+                    <div class="flower-visual">
+
+
+                        <div class="flower-constellation">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+
+
+                        <div class="flower-aura"></div>
+
+
+
+                        <div class="flower-orbit">
+
+                            <span></span>
+
+                        </div>
+
+
+
+                        <div class="flower-shape tulip-shape">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="flower-info">
+
+
+                        <span class="flower-index">
+                            Cada tulipán será tu esencia
+                        </span>
+
+
+                        <h3>
+                            Tulipán
+                        </h3>
+
+
+                        <p>
+                            
+                        </p>
+
+
+                        <span class="flower-discover">
+                             
+                        </span>
+
+
+                    </div>
+
+
+                </article>
+
+
+
+                <!-- =================================================
+                     LOTO SILVESTRE
+                ================================================== -->
+
+                <article
+                    class="flower-card flower-lotus"
+                    data-flower="loto-silvestre"
+                >
+
+
+                    <div class="flower-card-number">
+                        So
+                    </div>
+
+
+
+                    <div class="flower-visual">
+
+
+                        <div class="flower-constellation">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+
+
+                        <div class="flower-aura"></div>
+
+
+
+                        <div class="flower-orbit">
+
+                            <span></span>
+
+                        </div>
+
+
+
+                        <div class="flower-shape lotus-shape">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="flower-info">
+
+
+                        <span class="flower-index">
+                             cada flor silvestre sera tu forma tan tuya de ser.
+                        </span>
+
+
+                        <h3>
+                            Loto silvestre
+                        </h3>
+
+
+                        <p>
+                            
+                        </p>
+
+
+                        <span class="flower-discover">
+                             
+                        </span>
+
+
+                    </div>
+
+
+                </article>
+
+
+
+                <!-- =================================================
+                     GERBERAS
+                ================================================== -->
+
+                <article
+                    class="flower-card flower-gerbera"
+                    data-flower="gerberas"
+                >
+
+
+                    <div class="flower-card-number">
+                        special.
+                    </div>
+
+
+
+                    <div class="flower-visual">
+
+
+                        <div class="flower-constellation">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+
+
+                        <div class="flower-aura"></div>
+
+
+
+                        <div class="flower-orbit">
+
+                            <span></span>
+
+                        </div>
+
+
+
+                        <div class="flower-shape gerbera-shape">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="flower-info">
+
+
+                        <span class="flower-index">
+                            En cada gerbera guardaré esa alegría que dejas en mis días
+                        </span>
+
+
+                        <h3>
+                            Gerberas
+                        </h3>
+
+
+                        <p>
+                            
+                        </p>
+
+
+                        <span class="flower-discover">
+                            
+                        </span>
+
+
+                    </div>
+
+
+                </article>
+
+
+            </div>
+
+
+        </section>
+
+
+
+            <!-- =====================================================
+             ARCHIVO / DIBUJOS
+        ====================================================== -->
+
+        <section id="drawingsSection" class="experience-section drawings-section">
+
+
+            <div class="section-number">
+                <span></span>
+                <small></small>
+            </div>
+
+
+            <div class="drawings-background">
+                <div class="archive-grid"></div>
+                <div class="archive-stars"></div>
+                <div class="archive-orbit"></div>
+            </div>
+
+
+            <div class="drawings-heading">
+
+                <div class="archive-status">
+                    <span></span>
+                    yyyyyyyyyyyyyyy
+                </div>
+
+                <span class="eyebrow"></span>
+
+                <h2>
+                    nuestros dibujitos 
+                    <em>
+                        ksksks .💗⃝🌕
+                    </em>
+                </h2>
+
+            </div>
+
+
+            <div class="drawings-grid">
+
+                <!-- DIBUJO 01 - ELADOS -->
+                <article class="drawing-card drawing-one" data-index="01">
+
+                    <div class="drawing-coordinate">
+                        Nuestros heladitos
+                    </div>
+
+                    <div class="drawing-placeholder">
+
+                        <div class="drawing-frame-grid"></div>
+                        <div class="drawing-scan-line"></div>
+
+                        <!-- TU FOTO REAL: elados.jpeg -->
+                        <img src="dibujos/elados.jpeg" alt="Helados" class="drawing-img">
+
+                        <span>𓍢ִ໋🌷͙֒</span>
+                        <small></small>
+
+                    </div>
+
+                    <div class="drawing-label">I</div>
+                    <div class="drawing-corner-mark">+</div>
+
+                </article>
+
+
+                <!-- DIBUJO 02 - PANDA -->
+                <article class="drawing-card drawing-two" data-index="02">
+
+                    <div class="drawing-coordinate">
+                        Nuestro pandita 
+                    </div>
+
+                    <div class="drawing-placeholder">
+
+                        <div class="drawing-frame-grid"></div>
+                        <div class="drawing-scan-line"></div>
+
+                        <!-- TU FOTO REAL: panda.jpeg -->
+                        <img src="dibujos/panda.jpeg" alt="Panda" class="drawing-img">
+
+                        <span>-`𖹭´- </span>
+                        <small></small>
+
+                    </div>
+
+                    <div class="drawing-label">II</div>
+                    <div class="drawing-corner-mark">+</div>
+
+                </article>
+
+
+                <!-- DIBUJO 03 - RANA -->
+                <article class="drawing-card drawing-three" data-index="03">
+
+                    <div class="drawing-coordinate">
+                        Nuestra ranita
+                    </div>
+
+                    <div class="drawing-placeholder">
+
+                        <div class="drawing-frame-grid"></div>
+                        <div class="drawing-scan-line"></div>
+
+                        <!-- TU FOTO REAL: rana.jpeg -->
+                        <img src="dibujos/rana.jpeg" alt="Rana" class="drawing-img">
+
+                        <span>୧⍤⃝💐</span>
+                        <small></small>
+
+                    </div>
+
+                    <div class="drawing-label">III</div>
+                    <div class="drawing-corner-mark">+</div>
+
+                </article>
+
+
+                <!-- DIBUJO 04 - RANITAS -->
+                <article class="drawing-card drawing-four" data-index="04">
+
+                    <div class="drawing-coordinate">
+                        Otras ranitas xD
+                    </div>
+
+                    <div class="drawing-placeholder">
+
+                        <div class="drawing-frame-grid"></div>
+                        <div class="drawing-scan-line"></div>
+
+                        <!-- TU FOTO REAL: ranitas.jpeg -->
+                        <img src="dibujos/ranitas.jpeg" alt="Ranitas" class="drawing-img">
+
+                        <span>🐸</span>
+                        <small></small>
+
+                    </div>
+
+                    <div class="drawing-label">IV</div>
+                    <div class="drawing-corner-mark">+</div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+
+        <!-- =====================================================
+             CARTA / MENSAJE INTERESTELAR
+        ====================================================== -->
+
+        <section
+            id="letterSection"
+            class="experience-section letter-section"
+        >
+
+
+            <div class="letter-background">
+
+                <div class="letter-nebula"></div>
+
+                <div class="letter-stars"></div>
+
+                <div class="letter-signal"></div>
+
+            </div>
+
+
+
+            <div class="section-number">
+
+                <span>
+                    
+                </span>
+
+                <small>
+                    
+                </small>
+
+            </div>
+
+
+
+            <div class="letter-wrapper">
+
+
+                <div class="letter-header">
+
+
+                    <div class="message-transmission">
+
+                        <span class="transmission-dot"></span>
+
+                        
+
+                        <span>
+                            olla
+                        </span>
+
+                    </div>
+
+
+
+                    <span class="eyebrow">
+                        
+                    </span>
+
+
+
+                    <h2>
+
+                        Y aun falta una cosa...
+
+                        <em>
+                            quiero decirte lop
+                        </em>
+
+                    </h2>
+
+
+                </div>
+
+
+
+                <article class="letter-card">
+
+
+                    <div class="letter-card-glow"></div>
+
+
+                    <div class="letter-top">
+
+
+                        <span>
+                            .....
+                        </span>
+
+
+                        <span>
+                            25-09-26
+                        </span>
+
+
+                    </div>
+
+
+
+                    <div class="letter-coordinate">
+
+                        Todo lo que siento.
+
+                    </div>
+
+
+
+                    <div class="letter-content">
+
+
+                        <span class="letter-greeting">
+                            𝒴𝒪𝒰'𝑅𝐸 𝒩𝐸𝒱𝐸𝑅 𝒯𝐻𝒜𝒯 𝐹𝒜𝑅 𝒜𝒲𝒜𝒴
+                        </span>
+
+
+
+                        <p class="letter-placeholder">
+
+                            𝓕𝓻𝓸𝓶 𝓶𝓮 :p.
+
+                            <br><br>
+
+                            Es un poco raro tratar de escribir 2 años, y no porque no tenga cosas que decir o así, sino porque siento que dos años son demasiado grandes para meterlo en una carta
+
+Podría empezar a decir simplemente Felices dos añitos como las demás cartas pero seria demasiado repetido simplemente x la fecha.. Y lo nuestro nunca se ha sentido como una fecha.
+
+Ha sido una cantidad tan grande de días en los que puedo voltear y no estas a mi lado, sin embargo puedo sentirte, días que solamente puedo conformarme con ver tus fotos, escuchar tus audios, leer tus mensajes, hacer llamadas.
+
+Aun así has logrado estar presente en muchas cosas de mi vida que nadie ha podido ver y eso es algo que todavía me cuesta explicar porque... cuando pienso en estos dos años no solo pienso en cosas bonitas o así, pienso en las veces que ambos tuvimos días malos y nos terminamos apoyando y supongo que eso es algo muy especial a pesar de que se han pasado días malos. 
+
+Hay veces en las que dicen que una persona no puede formar parte de tu día sin estar físicamente pero no muchos entienden el sentimiento de hacer algo y que de repente ese algo te recuerde a esa persona hasta con una tontería completamente insignificante jasjka.
+
+Y es curioso pq la distancia puede hacer que no estés físicamente, pero consigue hacer que entres en cosas en las que no pensé que estarías, y supongo que eso es una de las cosas mas bonitas porque simplemente lo sueltas. 
+
+Algunas veces solo con imaginarte a ti me hace pensar algo que no había entendido bien, y era como es posible que sientas a alguien sin que se este físicamente y pude entender desde mucho antes de ahora que estar cerca de alguien no siempre significa tenerlo físicamente cerca, basta con conocer a la persona y simplemente ver algo que recuerdes que le gusta, tus flores, guitarra, la musica o incluso algo que a ambos nos gusta como astronomía.
+
+y aun que quisiera festejar estos dos años contigo frente a frente, hemos tenido que aprender una versión completamente diferente de estar juntos pq no podemos simplemente salir a caminar cuando queremos, no podemos aparecer en la casa del otro de sorpresa o tampoco podemos tener todos esos momentos raros que tal vez parezcan hasta tontos pero aun así tuvimos que construir nuestros momentos con llamadas, audios, juegos, dibujando, desvelándonos, escuchando podcasts o cosas por el estilo. 
+
+y si, aunque todo esto halla sido de esta manera hay algo que quiero que entiendas sobre eso, para mi estos dos años no solo han sido sobre aguantar la distancia, porque no, no pienso que estos dos años se hallan tratado de tener que esperar, porque cada cosa que hemos hecho simplemente ya es parte de nosotros.
+
+y yal vez cuando queramos recordar algo ya no recordaremos todas nuestras conversaciones, juegos, etc, pero espero que nunca olvidemos  que fue amar y querer a alguien durante un tiempecito sin poder simplemente vernos y abrazarnos, porque solamente nosotros sabemos lo que ha significado :3.
+
+algo que también es gracioso y bonito es que no se exactamente cuando dejaste de ser solo una persona y te convertiste en algo mas que importante para mi, algo que ya es parte de mi porque... al inicio pensé que solamente hablábamos por hablar y no precisamente pq no me lo tomara enserio, no se como decirlo ajajay, no se cuando fue el día, mes, conversación, simplemente un día ya estabas en muchas partes de mi y entendí q no solo eras una novia :), eras mas que eso... y es bonito que pasara así sin necesidad de forzar algo, pq cada día tenemos días increíbles.
+
+Dos años juntos que si alguien viera desde otro Angulo simplemente se cuestionaría como es que funciona una relación así, como es que hay tanta confianza, como pueden estar tan cerca si ni siquiera se tienen cerca y cuando alguien me pregunta como llevamos ese tiempo simplemente confiando en la otra persona probablemente diría que es a base de todo lo que hemos pasado pero la verdad es que no tengo idea de que responderles, porque creo ni nosotros tenemos una explicación para eso.
+
+Dejamos de medir nuestra relación en simples km y paso a medirse en base a todo lo que hemos pasado. 
+
+pude haberte escrito un "eres la mejor" o un "te amo" pero no lo hice y no pq no lo sienta, creo que ahora es mas que ovio lo que puedo sentir... pero por esta ocasión esto necesita algo mas que simples palabras, necesitan tener noches y días completos. 
+
+Por eso si me pidieras hablar de estos dos años contigo no solo hablaría de tiempo y distancia... hablaría de todo lo que ha cambiado de mi junto contigo, desde que comenzó todo esto, podre olvidarme de machas cosas pero algo que nunca olvidare será el como comenzó esto. 
+
+Porque quizá algún día de estos podremos mirar esos años desde otra perspectiva, estaremos recordando todos estos recuerdos frente a frente, riéndonos por todo lo que hacíamos, y cuando llegue ese momento, quiero acordarme también de esta versión de nosotros... La que todavía tenía kilómetros, la que aprendió a amar de una manera diferente a los demás. 
+
+Y si alguien me preguntara que fue lo mas difícil de todo esto podría decir que fueron las pequeñas peleas en las q dejábamos de hablar, pero la vrd respondería que fueron las veces en las que lo único que quería era que estuvieras aquí.
+
+no precisamente para hacer algo especial, si no pq simplemente quería que estuvieras aquí y no tuviera que imaginarme un abrazo...
+
+Gracias por no ser "perfecta", por ver todo lo que hay en ti, por todo lo que hemos aposado, por confiar en mi, por todas nuestras tonterías, por los momentos malos y aprender de eso, por las bromas de que me haces enojar.
+
+Si algún día dudas de lo que significaron estos dos años recuerda que aun con esta distancia  entre nosotros encontramos la manera de formar parte formar parte de ambos, y eso no lo hace cualquiera.
+
+y si algún día cambiara de universo y tuviera que volver al inicio creo que volvería a elegir este camino.
+
+Y otra vez gracias por estos dos añitos que aunq hallan pasado a distancia nunca te sentiste tan lejos.
+
+                        </p>
+
+
+
+                        <div class="letter-divider">
+
+                            <span></span>
+
+                        </div>
+
+
+
+                        <span class="letter-signature">
+                            𝓐𝓽𝓽 
+                        </span>
+
+
+                    </div>
+
+
+
+                    <div class="letter-seal">
+
+                        <span>
+                            𝓡
+                        </span>
+
+                    </div>
+                                    </article>
+
+
+                <!-- =====================================================
+                     SEGUNDO REPRODUCTOR / TRANSMISION MUSICAL
+                ====================================================== -->
+
+                <div class="letter-music">
+
+                    <div class="letter-music-header">
+
+                        <div class="letter-music-id">
+
+                            <span class="letter-music-dot"></span>
+
+                            <span>
+                                BWU
+                            </span>
+
+                        </div>
+
+
+                        <span class="letter-music-date">
+                            
+                        </span>
+
+                    </div>
+
+
+
+                    <div class="letter-music-core">
+
+
+                        <div class="letter-orbit letter-orbit-one"></div>
+
+                        <div class="letter-orbit letter-orbit-two"></div>
+
+                        <div class="letter-orbit letter-orbit-three"></div>
+
+
+
+                        <span class="letter-satellite satellite-one"></span>
+
+                        <span class="letter-satellite satellite-two"></span>
+
+
+
+                        <div class="letter-music-disc">
+
+                            <div class="letter-disc-stars"></div>
+
+                            <div class="letter-disc-grooves"></div>
+
+                            <div class="letter-disc-glow"></div>
+
+
+                            <div class="letter-disc-center">
+
+                                <span>
+                                    ♡
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="letter-signal-waves">
+
+                            <span></span>
+
+                            <span></span>
+
+                            <span></span>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="letter-music-info">
+
+
+                        <span class="letter-music-kicker">
+                            BoyWhithUke
+                        </span>
+
+
+                        <h3>
+                            
+                        </h3>
+
+
+                        <span class="letter-music-artist">
+                            
+                        </span>
+
+
+                        <p>
+                            
+                        </p>
+
+
+                    </div>
+
+
+
+                    <div class="letter-music-control">
+
+
+                        <button
+                            id="letterMusicPlay"
+                            type="button"
+                            aria-label="Reproducir musica de la carta"
+                        >
+
+                            <span id="letterMusicIcon">
+                                ▶
+                            </span>
+
+                        </button>
+
+
+                    </div>
+
+
+
+                    <div class="letter-music-progress">
+
+
+                        <div class="letter-music-progress-track">
+
+
+                            <div
+                                id="letterMusicProgress"
+                                class="letter-music-progress-fill"
+                            ></div>
+
+
+                            <span
+                                id="letterMusicPoint"
+                                class="letter-music-progress-point"
+                            ></span>
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="letter-music-time">
+
+
+                        <span id="letterMusicCurrent">
+                            
+                        </span>
+
+
+                        <span id="letterMusicState">
+                            
+                        </span>
+
+
+                        <span id="letterMusicDuration">
+                            
+                        </span>
+
+
+                    </div>
+
+
+
+                    <div class="letter-music-footer">
+
+
+                        <span></span>
+
+
+                        <small>
+                            
+                        </small>
+
+
+                        <span></span>
+
+
+                    </div>
+
+
+
+                                        <audio
+                        id="letterAudio"
+                        preload="metadata"
+                        src="bwu.mp3"
+                    ></audio>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =====================================================
+             TRANSICIÓN / MEMORIA
+        ====================================================== -->
+
+    
+
+
+
+        <section
+            id="memoryTransition"
+            class="memory-transition"
+        >
+
+
+            <div class="transition-background">
+
+                <div class="transition-nebula"></div>
+
+                <div class="transition-stars"></div>
+
+                <div class="transition-orbit"></div>
+
+            </div>
+
+
+
+            <div class="transition-content">
+
+
+                <div class="transition-coordinate">
+
+                    <span>
+                        
+                    </span>
+
+                    <span>
+                        Tú hiciste esto una vez,
+                    </span>
+
+                </div>
+
+
+
+                <span class="eyebrow">
+                    sin saber dónde iba a terminar, Yo sí lo sabía.
+
+                </span>
+
+
+
+                <h2>
+
+                    
+                    <em>
+                        Quería llevar un pedacito de algo que hiciste tú, conmigo. :3
+                    </em>
+
+                </h2>
+
+
+
+                <p>
+
+                    
+
+                    
+
+                </p>
+
+
+
+                <div class="transition-line">
+
+                    <span></span>
+
+                </div>
+
+
+
+                <div class="transition-scroll">
+
+                    <small>
+                        
+                    </small>
+
+                    <span>
+                        ↓⬇↓
+                    </span>
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+                <!-- =====================================================
+             FOTO PRINCIPAL
+        ====================================================== -->
+
+        <section id="mainPhotoSection" class="main-photo-section">
+
+            <div class="photo-background">
+                <div class="photo-stars"></div>
+                <div class="photo-nebula photo-nebula-one"></div>
+                <div class="photo-nebula photo-nebula-two"></div>
+                <div class="photo-light"></div>
+                <div class="photo-orbit photo-orbit-one"></div>
+                <div class="photo-orbit photo-orbit-two"></div>
+            </div>
+
+            <div class="photo-content">
+
+                <div class="photo-top-data">
+                    <span>AHORA LO TENGO MUEJEJEJEJE</span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <span class="eyebrow"></span>
+
+                <h2>
+                    IRAAAPP
+                    <em></em>
+                </h2>
+
+                <div class="main-photo-frame">
+
+                    <div class="photo-frame-grid"></div>
+
+                    <div class="photo-corner corner-top-left"></div>
+                    <div class="photo-corner corner-top-right"></div>
+                    <div class="photo-corner corner-bottom-left"></div>
+                    <div class="photo-corner corner-bottom-right"></div>
+
+                    <div class="photo-frame-number">
+                        08
+                    </div>
+
+                    <div class="photo-placeholder">
+
+                        <div class="photo-scan"></div>
+
+                        <div class="photo-placeholder-icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <!-- TU FOTO REAL VA AQUÍ: WALLIE.jpeg en minúsculas/mayúsculas exactas -->
+                        <img src="dibujos/WALLIE.jpeg" alt="Wall-e" class="main-inserted-photo">
+
+                        <span></span>
+                        <small></small>
+
+                    </div>
+
+                </div>
+
+                <div class="photo-caption">
+                    <span class="caption-line"></span>
+                    <p>
+                        <br>
+                    </p>
+                    <span class="caption-line"></span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+              <!-- =====================================================
+                     VIDEO FINAL
+        ====================================================== -->
+
+        <section id="videoSection" class="video-section">
+
+            <div class="video-background">
+                <div class="video-stars"></div>
+                <div class="video-nebula"></div>
+                <div class="video-orbit"></div>
+            </div>
+
+            <div class="video-intro">
+
+                <div class="video-signal">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <span class="eyebrow"></span>
+
+                <h2>
+                    yy
+                    <em></em>
+                </h2>
+
+            </div>
+
+            <div class="video-frame">
+
+                <div class="video-frame-background"></div>
+
+                <div class="video-overlay">
+
+                    <div class="video-overlay-content">
+                        <div class="video-play-symbol">
+                            <span>▶</span>
+                        </div>
+                        <span></span>
+                        <small></small>
+                    </div>
+
+                    <div class="video-corner video-corner-tl"></div>
+                    <div class="video-corner video-corner-tr"></div>
+                    <div class="video-corner video-corner-bl"></div>
+                    <div class="video-corner video-corner-br"></div>
+
+                </div>
+
+                <!-- TU VIDEO ENLAZADO AQUÍ CON SU RUTA REAL -->
+                <video id="finalVideo" controls preload="metadata" playsinline>
+                    <source src="video/lejos.mp4" type="video/mp4">
+                </video>
+
+            </div>
+
+            <!-- EL MENSAJE SORPRESA SE DESPLEGARÁ AQUÍ ABAJO -->
+            <div id="mensajeSorpresa" class="mensaje-oculto">
+                <p>
+                    Gracias por hacer estos dos añitos juntos y por hacer que pueda sentir tus abrazos y besos aunque no estés físicamente, pronto podremos mirarnos y abrazarnos tan fuerte que se nos olvide que alguna vez estuvimos lejos. ¡Felices 2 años, mi amor, Te amo con todo mi corazón :3
+                </p>
+            </div>
+
+            <div class="video-footer-data">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </section>
+
+
+
+
+        <!-- =====================================================
+     FINAL / ÚLTIMA ÓRBITA
+====================================================== -->
+
+<footer
+    id="finalSection"
+    class="final-section"
+>
+
+    <!-- =================================================
+         FONDO ESPACIAL
+    ================================================== -->
+
+    <div class="final-background">
+
+        <div class="final-deep-space"></div>
+
+        <div class="final-nebula final-nebula-one"></div>
+        <div class="final-nebula final-nebula-two"></div>
+
+        <div class="final-stars">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="final-galaxy"></div>
+
+        <div class="final-orbit final-orbit-one"></div>
+        <div class="final-orbit final-orbit-two"></div>
+
+        <div class="final-shooting-star"></div>
+
+    </div>
+
+
+    <!-- =================================================
+         CONTENIDO FINAL
+    ================================================== -->
+
+    <div class="final-content">
+
+
+        <!-- ---------------------------------------------
+             PEQUEÑO ENCABEZADO
+        ---------------------------------------------- -->
+
+        <span class="eyebrow">
+        </span>
+
+
+        <!-- ---------------------------------------------
+             MENSAJE
+        ---------------------------------------------- -->
+
+        <h2>
+
+            <span class="final-message">
+                𝒟ℴ𝓈 𝒶𝓃ℴ𝓈, 𝓂𝒾𝓁ℯ𝓈 𝒹ℯ 𝓀𝒾𝓁ℴ𝓂ℯ𝓉𝓇ℴ𝓈 𝓎 𝓊𝓃 𝓂𝒾𝓈𝓂ℴ 𝒸𝒾ℯ𝓁ℴ.
+            </span>
+
+            <br><br>
+
+            <span class="final-message-secondary">
+                ℒ𝒶 𝒹𝒾𝓈𝓉𝒶𝓃𝒸𝒾𝒶 𝓃𝓊𝓃𝒸𝒶 𝒸𝒶𝓂𝒷𝒾ℴ 𝓁ℴ 𝓆𝓊ℯ 𝓈ℯ𝓃𝓉𝒾𝓂ℴ𝓈,
+                𝓈ℴ𝓁ℴ 𝓃ℴ𝓈 ℯ𝓃𝓈ℯ𝓃ℴ 𝒸𝓊𝒶𝓃𝓉ℴ 𝓆𝓊ℯ𝓇ℯ𝓂ℴ𝓈 ℯ𝓃𝒸ℴ𝓃𝓉𝓇𝒶𝓇𝓃ℴ𝓈 :3
+            </span>
+
+            <em></em>
+
+        </h2>
+
+
+        <!-- =================================================
+             FOTOGRAFÍA
+        ================================================== -->
+
+        <div class="final-photo">
+
+            <div class="final-photo-glow"></div>
+
+            <div class="final-photo-frame">
+
+                <div class="final-photo-image-wrap">
+
+                    <img
+                        src="kei.jpeg"
+                        alt="Un recuerdo de ella"
+                        class="final-photo-image"
+                    >
+
+                </div>
+
+                <div class="final-photo-reflection"></div>
+
+            </div>
+
+        </div>
+
+
+        <!-- ---------------------------------------------
+             PEQUEÑO DETALLE BAJO LA FOTO
+        ---------------------------------------------- -->
+
+        <div class="final-photo-caption">
+
+            <span class="final-photo-line"></span>
+
+            <span class="final-photo-dot"></span>
+
+            <span class="final-photo-line"></span>
+
+        </div>
+
+
+        <!-- =================================================
+             SÍMBOLO / ÓRBITA
+        ================================================== -->
+
+        <div class="final-symbol">
+
+            <div class="final-symbol-orbit"></div>
+
+            <span></span>
+
+        </div>
+
+
+        <!-- =================================================
+             FIRMA
+        ================================================== -->
+
+        <p class="final-signature">
+            𝒜𝓉𝓉: ℛ
+        </p>
+
+
+        <!-- =================================================
+             TEXTO SECUNDARIO
+        ================================================== -->
+
+        <small class="final-small">
+        </small>
+
+
+        <!-- =================================================
+             COORDENADAS
+        ================================================== -->
+
+        <div class="final-coordinate">
+
+            <span></span>
+
+            <span>
+                ℐ𝓁ℴ𝓋ℯ 𝓎ℴ𝓊
+            </span>
+
+            <span></span>
+
+        </div>
+
+
+    </div>
+
+</footer>
+
+
+</main>
+
+
+<!-- =========================================================
+     SISTEMA DE EFECTOS / OVERLAYS
+========================================================== -->
+
+<div
+    id="transitionOverlay"
+    class="transition-overlay"
+    aria-hidden="true"
+></div>
+
+
+<div
+    id="starField"
+    class="star-field"
+    aria-hidden="true"
+></div>
+
+
+</div>
+
+
+<!-- =============================================================
+     JAVASCRIPT PRINCIPAL
+============================================================== -->
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
